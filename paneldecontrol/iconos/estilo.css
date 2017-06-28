@@ -1,0 +1,132 @@
+hr {
+color: #cccccc;
+}
+
+
+body {
+	margin: 0 !important;
+	padding: 0 !important;
+
+}
+
+
+#cuerpo {
+	margin: 0 !important;
+	padding: 0 !important;
+	background: transparent url(../imagenes/fondo.jpg) no-repeat top;
+	background-color: #000000;
+}
+
+
+
+a.titulo {  
+TEXT-DECORATION: none;
+  
+padding-left: 18px;    
+  
+background: transparent url(pnt_1.png) no-repeat center left;  
+
+color:#ffffff;
+
+font-family: Verdana;
+font-size: 15px;
+font-weight:bold;
+  
+}  
+
+
+#menuelnlac {  
+list-style:none;
+	margin:0;
+	padding-left:10 px;
+}
+
+#cabeza_not {  
+	margin:0;
+	padding-left:10 px;
+}
+
+
+#menuelnlac li a {
+	display:block;
+	width:90%;
+	border-bottom: dotted;
+	border-bottom-width:thin;
+	border-bottom-color:#000000;
+	padding:1px 0;
+	font-family: Verdana;
+	padding-left: 15px; 
+	text-align:left;
+	font-size:11px;
+	color:#333333;
+	text-decoration: none;
+	cursor: default;
+	background:  url(pnt_2.png) no-repeat center left ;
+}
+#menuelnlac li a:hover {
+
+	color:#ffffff;
+	background-color:#333333;
+
+}
+
+#menuelnlac_r {
+list-style:none;
+	margin:0;
+	padding-left:10 px;
+}
+#menuelnlac_r li a {
+	display:block;
+	width:90%;
+	border-bottom: dotted;
+	border-bottom-width:thin;
+	border-bottom-color:#000000;
+	padding:1px 0;
+	font-family: Verdana;
+	padding-left: 15px; 
+	text-align:left;
+	font-size:11px;
+	color:#333333;
+	text-decoration: none;
+	cursor: default;
+	background:  url(pnt_2.png) no-repeat center left ;
+}
+#menuelnlac_r li a:hover {
+
+	color:#ffffff;
+	background-color:#cc0000;
+
+}
+
+/* A fake IE information bar */
+#infobar {
+	font: message-box;
+	position: fixed;
+	left:0;
+   	top:0;
+        overflow-x: hidden;
+        width: 100%;
+        z-index:1000;
+}
+
+/* Please adjust the values if the infobar is not looking good */
+#infobar a, #infobar a:link, #infobar a:visited, #infobar a:active {
+	display: block;
+	color: #000;
+	width:100%;
+	background: #FFFFE1 url(warning.gif) no-repeat fixed .3em .3em;
+	border-bottom: .16em outset;
+	text-decoration: none;
+	cursor: default;
+}
+
+#infobar a:hover {
+	color: #FFF;
+	background: #3169B6 url(warning2.gif) no-repeat fixed .3em .3em;
+}
+
+#infobar p{
+	margin:0px;
+	padding: .45em 0em .45em 22px;
+	font-size:11px;
+}

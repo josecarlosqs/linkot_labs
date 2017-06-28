@@ -1,0 +1,2 @@
+[16-Feb-2011 17:26:00] PHP Warning:  gethostbyaddr() [<a href='function.gethostbyaddr'>function.gethostbyaddr</a>]: Address is not a valid IPv4 or IPv6 address in /home/quichiz/public_html/modulos/ip.php on line 21
+[16-Feb-2011 17:26:09] PHP Warning:  gethostbyaddr() [<a href='function.gethostbyaddr'>function.gethostbyaddr</a>]: Address is not a valid IPv4 or IPv6 address in /home/quichiz/public_html/modulos/ip.php on line 21

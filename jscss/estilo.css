@@ -1,0 +1,158 @@
+body {
+display:none; 
+font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#cabeza   {
+display: table-cell;
+width: 241;
+height: 18;
+background-image: url(../uthurunku/lknt_r1_c1_r2_c1.jpg);
+vertical-align:middle;
+cursor: pointer;
+}
+#cuerpo   {
+background-image: url(../uthurunku/lknt_r3_c1.jpg);
+width:241;
+}
+
+
+#cuer_cerrado   {
+background-image: url(../uthurunku/lknt_r3_c1.jpg);
+width:241;
+}
+
+#menuv {
+	margin-left: 10 px;
+
+	margin-right: 10 px;
+
+        border: 1px solid #ACCFE8;
+
+        border-width: 1px 1px 0 1px;
+
+
+
+
+}
+
+#menuv ul, li {
+
+        list-style-type: none;
+
+}
+
+
+
+#menuv ul {
+
+        margin: 0;
+
+        padding: 0;
+
+}
+
+
+
+#menuv li {
+
+        border-bottom: 1px solid #ACCFE8;
+
+}
+
+
+
+#menuv a {
+
+        text-decoration: none;
+
+        color: #3366CC;
+
+        background: #F0F7FC;
+
+        display: block;
+
+        padding: 3px 6px;
+
+        
+
+}
+
+
+
+#menuv a:hover {
+
+        background: #DBEBF6;
+
+}
+
+
+#usuarios-ie {
+
+width:100%;
+
+font-family:Verdana, Geneva, sans-serif;
+
+background: #FFFFDE;
+
+border-bottom:1px solid #666;
+
+color:#000;
+
+position:fixed;
+
+top:0px;
+
+left:0px;
+
+z-index:999999;
+
+}
+
+ 
+
+#usuarios-ie p { font-size: 13px; margin: 0; padding:2px 10px; }
+
+#usuarios-ie a  {text-decoration: underline; font-weight: bold; color: #D64411; }
+
+#peru_a {
+	background: url(../uthurunku/peru.png);
+	display:block;
+	height:33px;
+	overflow:hidden;
+	width:32px;
+	cursor:pointer;
+}
+.tooltip {
+	display:none;
+	background:url(http://i736.photobucket.com/albums/xx10/quichiz1993/black_arrow_big.png);
+	height:163px;
+	padding:40px 30px 10px 30px;
+	width:310px;
+	font-size:11px;
+	color:#fff;
+}
+
+
+
+.tooltip a {
+	color:#ad4;
+	font-size:11px;
+	font-weight:bold;
+}
+ 
+ 
+ 
+ #chat {
+	overflow:auto;
+	height: 290px;
+	width:218;
+	margin:auto;
+	margin-bottom:30px;	
+
+}
+
+#mens{
+        padding: 10px 10px;
+
+}

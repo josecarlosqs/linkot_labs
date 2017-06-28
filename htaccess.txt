@@ -1,0 +1,8 @@
+RewriteEngine on
+Options All -Indexes
+RewriteCond %{HTTP_REFERER} !^http://linkot.uni.cc/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://linkot.uni.cc$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.linkot.uni.cc/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.linkot.uni.cc$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp)$ http://i736.photobucket.com/albums/xx10/quichiz1993/nrab.png [R,NC]
+
